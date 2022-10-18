@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1453d73-ad83-424b-9594-2b615000e5c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/Radio2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radio/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radio/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/IT/Netologia/Java/Tasks/Radio2/src/test/java"
+    "last_directory_selection": "C:/IT/Netologia/Java/Tasks/Radio2/src/test/java/ru/netology/radio",
+    "last_opened_file_path": "C:/IT/Netologia/Java/Tasks/radioman"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -45,8 +47,8 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest">
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Radio2Test">
+    <configuration name="Radio2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio2" />
       <extension name="coverage">
         <pattern>
@@ -55,13 +57,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.Radio2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldNexBy1RadioStationNumberFrom9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Radio2Test.shouldMaxRadioStationNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio2" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldNexBy1RadioStationNumberFrom9" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.Radio2Test" />
+      <option name="METHOD_NAME" value="shouldMaxRadioStationNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldPrevBy1RadioStationNumberFrom0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Radio2Test.shouldMaxVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio2" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldPrevBy1RadioStationNumberFrom0" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.Radio2Test" />
+      <option name="METHOD_NAME" value="shouldMaxVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldPrevBy1RadioStationNumberFrom10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Radio2Test.shouldMinRadioStationNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio2" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldPrevBy1RadioStationNumberFrom10" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.Radio2Test" />
+      <option name="METHOD_NAME" value="shouldMinRadioStationNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldPrevBy1RadioStationNumberFromMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Radio2Test.shouldMinVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radio2" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radio" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.RadioTest" />
-      <option name="METHOD_NAME" value="shouldPrevBy1RadioStationNumberFromMin" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.radio.Radio2Test" />
+      <option name="METHOD_NAME" value="shouldMinVolume" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.shouldPrevBy1RadioStationNumberFromMin" />
-        <item itemvalue="JUnit.RadioTest.shouldPrevBy1RadioStationNumberFrom10" />
-        <item itemvalue="JUnit.RadioTest.shouldPrevBy1RadioStationNumberFrom0" />
-        <item itemvalue="JUnit.RadioTest.shouldNexBy1RadioStationNumberFrom9" />
+        <item itemvalue="JUnit.Radio2Test" />
+        <item itemvalue="JUnit.Radio2Test.shouldMinVolume" />
+        <item itemvalue="JUnit.Radio2Test.shouldMaxVolume" />
+        <item itemvalue="JUnit.Radio2Test.shouldMinRadioStationNumber" />
+        <item itemvalue="JUnit.Radio2Test.shouldMaxRadioStationNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +158,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/radio/Radio2Test.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
